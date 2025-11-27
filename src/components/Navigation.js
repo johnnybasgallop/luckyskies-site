@@ -70,12 +70,13 @@ export default function Navigation() {
           </button>
 
           {/* Logo - Desktop only */}
-          <a
-            href="#home"
-            className="hidden md:block text-xl md:text-2xl font-bold text-gray-900 transition-colors flex-1"
-          >
-            LUCKY SKIES
-          </a>
+
+          <div>
+            <h1 className="text-lg font-bold text-gray-900 tracking-tight">
+              LUCKY SKIES
+            </h1>
+            <div className="h-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full max-w-xs mx-auto lg:mx-0"></div>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

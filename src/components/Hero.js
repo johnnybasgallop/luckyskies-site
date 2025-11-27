@@ -76,9 +76,9 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="flex flex-col items-center animate-bounce">
+        <div className="flex flex-col items-center animate-bounce bg-white backdrop-blur-xl rounded-full p-3">
           <svg
-            className="w-8 h-8 text-gray-700"
+            className="w-4 h-4 text-black"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
