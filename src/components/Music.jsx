@@ -44,7 +44,7 @@ export default function Music() {
             favorite platform
           </p>
           <p className="text-sm text-gray-600 max-w-2xl font-regular py-3 mx-auto">
-            One downlaod is worth 100 streams, so please support us on our way
+            One download is worth 100 streams, so please support us on our way
             to a chart topping hit by downloading
           </p>
         </div>
