@@ -71,7 +71,7 @@ export default function Navigation() {
 
           {/* Logo - Desktop only */}
 
-          <div>
+          <div className="hidden md:block">
             <h1 className="text-lg font-bold text-gray-900 tracking-tight">
               LUCKY SKIES
             </h1>

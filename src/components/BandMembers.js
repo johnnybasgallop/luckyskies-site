@@ -34,17 +34,17 @@ export default function BandMembers() {
         </div>
 
         {/* Band Photo */}
-        <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl">
-          <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
+        <div className="mb-12 rounded-2xl overflow-hidden md:shadow-2xl">
+          <div className="relative w-auto h-[300px] md:h-[500px] lg:h-[600px]">
             <Image
               src="/band.png"
               alt="Lucky Skies - Sharon, Mark, Marco and Lee"
               fill
-              className="object-cover"
+              className="md:object-cover object-contain"
               quality={100}
             />
           </div>
-          <div className="bg-gray-900 text-white text-center py-3">
+          <div className="bg-white text-black text-center py-3">
             <p className="text-sm md:text-base italic">
               Lucky Skies (L to R): Sharon, Mark, Marco and Lee
             </p>
