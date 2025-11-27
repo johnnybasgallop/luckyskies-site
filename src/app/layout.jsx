@@ -12,12 +12,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lucky Skies - Contemporary Classic Pop",
-  description: "Lucky Skies featuring Stagecoach - When You Know It's Christmas. Experienced performing musicians from the London/Surrey area bringing classic pop to life.",
-  keywords: "Lucky Skies, Stagecoach Performing Arts, Contemporary Classic Pop, When You Know It's Christmas, Christmas music",
+  title: "Lucky Skies",
+  description:
+    "Lucky Skies featuring Stagecoach - When You Know It's Christmas. Experienced performing musicians from the London/Surrey area bringing classic pop to life.",
+  keywords:
+    "Lucky Skies, Stagecoach Performing Arts, Contemporary Classic Pop, When You Know It's Christmas, Christmas music",
   openGraph: {
     title: "Lucky Skies - Contemporary Classic Pop",
-    description: "Lucky Skies featuring Stagecoach - When You Know It's Christmas",
+    description:
+      "Lucky Skies featuring Stagecoach - When You Know It's Christmas",
     type: "website",
   },
 };
